@@ -1,0 +1,62 @@
+/* Estilos gerais */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilo da Navbar */
+.navbar {
+    background-color: #0056b3; /* Altere a cor conforme desejado */
+}
+
+.navbar-brand,
+.nav-link {
+    color: #fff !important;
+}
+
+.nav-link:hover {
+    color: #f4f4f4 !important;
+}
+
+/* Estilo dos cabeçalhos */
+h1 {
+    color: #333;
+}
+
+/* Estilo do Container e Colunas */
+.container {
+    padding: 20px;
+}
+
+.row {
+    margin-bottom: 20px;
+}
+
+/* Estilo das Imagens */
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px; /* Adiciona bordas arredondadas às imagens */
+}
+
+/* Estilos para os ícones de habilidades */
+.devicon {
+    color: #333; /* Cor dos ícones */
+    margin-bottom: 10px;
+}
+
+.devicon:hover {
+    color: #0056b3; /* Cor ao passar o mouse */
+}
+
+/* Estilo do texto */
+p {
+    font-size: 1em;
+    color: #666;
+}
+
+/* Adicionar mais estilos conforme necessário */
