@@ -1,5 +1,7 @@
 /* Estilo Global */
 body {
+    background-color: #000;
+    color: #fff;
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
@@ -30,14 +32,14 @@ body {
 .nav-link {
     font-size: 18px;
     font-weight: 400;
-    color: #000;
+    color: #fff; /* Cor do texto branco */
     padding: 15px 20px;
     text-transform: uppercase;
     transition: 0.3s;
 }
 
 .nav-link:hover {
-    color: #007bff;
+    color: limegreen; /* Cor de destaque verde-limão ao passar o mouse */
 }
 
 /* Estilo do Cabeçalho 5 */
@@ -129,49 +131,13 @@ body {
     transition: 0.3s;
 }
 
-.btn-info {
-    background-color: #007bff;
-    color: #fff;
-}
-
-.btn-info:hover {
-    background-color: #0056b3;
-}
-
-.btn-secondary {
-    background-color: #6c757d;
-    color: #fff;
-}
-
-.btn-secondary:hover {
-    background-color: #495057;
-}
-
 .btn-success {
-    background-color: #28a745;
+    background-color: limegreen; /* Cor verde-limão para botões de sucesso */
     color: #fff;
 }
 
 .btn-success:hover {
-    background-color: #1e7e34;
-}
-
-.btn-danger {
-    background-color: #dc3545;
-    color: #fff;
-}
-
-.btn-danger:hover {
-    background-color: #bd2130;
-}
-
-.btn-primary {
-    background-color: #007bff;
-    color: #fff;
-}
-
-.btn-primary:hover {
-    background-color: #0056b3;
+    background-color: lightgreen; /* Cor de destaque ao passar o mouse */
 }
 
 /* Estilo da Equipe 1 */
